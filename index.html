@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>论文库 · 安全学习与 MPC</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin:0; font:16px/1.7 -apple-system,"Segoe UI","Noto Sans SC",sans-serif; background:#f7f8fa; color:#1a1a1a; }
+  header { padding:56px 24px 32px; max-width:860px; margin:0 auto; }
+  h1 { font-size:30px; margin:0 0 8px; letter-spacing:.5px; }
+  .sub { color:#666; font-size:15px; }
+  main { max-width:860px; margin:0 auto; padding:0 24px 80px; }
+  h2 { font-size:18px; margin:36px 0 14px; padding-left:10px; border-left:4px solid #2b5cd9; }
+  a.card { display:block; background:#fff; border:1px solid #e6e8ee; border-radius:12px; padding:16px 18px; margin:10px 0; text-decoration:none; color:inherit; transition:.15s; }
+  a.card:hover { border-color:#2b5cd9; box-shadow:0 4px 16px rgba(43,92,217,.10); transform:translateY(-1px); }
+  .t { font-weight:600; font-size:16px; }
+  .d { color:#6b7280; font-size:14px; margin-top:4px; }
+  img.fig { width:100%; border-radius:12px; border:1px solid #e6e8ee; margin:8px 0; }
+  footer { text-align:center; color:#9aa0aa; font-size:13px; padding:24px; }
+  @media (prefers-color-scheme: dark){
+    body{background:#14161a;color:#e6e6e6} a.card{background:#1c1f25;border-color:#2a2f38}
+    .sub,.d{color:#9aa0aa} h2{border-color:#4c7dff}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>论文库 · 安全学习与 MPC</h1>
+  <div class="sub">三篇主线论文 + 中英对照 + 阅读路线，随时翻原文。</div>
+</header>
+<main>
+
+  <h2>主线三篇</h2>
+  <a class="card" href="2013_Aswani_ProvablySafeLBMPC.pdf">
+    <div class="t">2013 · Aswani — 可证明安全的 LBMPC</div>
+    <div class="d">源头。回答「学习能不能不破坏安全」——能，但要付出保守性代价。</div>
+  </a>
+  <a class="card" href="2018_Koller_SafeExplorationLBMPC.pdf">
+    <div class="t">2018 · Koller — 安全探索与 LBMPC</div>
+    <div class="d">中间一环。回答「不确定性怎么一步步传播出去」——高斯过程 + 置信区间。</div>
+  </a>
+  <a class="card" href="2020_Zanon_SafeRLRobustMPC.pdf">
+    <div class="t">2020 · Zanon — 鲁棒 MPC 与安全强化学习</div>
+    <div class="d">工程侧。回答「怎么把 RL 塞进有保证的控制器里，还能求导训练」。</div>
+  </a>
+
+  <h2>对照与路线</h2>
+  <a class="card" href="2018_Koller_bilingual_zh.pdf">
+    <div class="t">Koller 2018 · 中英对照版（24 页）</div>
+    <div class="d">中文在上、英文小字在下，答辩时快速核对原句用。</div>
+  </a>
+  <a class="card" href="阅读路线-三篇MPC论文.pdf">
+    <div class="t">三天阅读路线</div>
+    <div class="d">先读哪篇、跳哪节、每篇的产出要求，附关系总览表。</div>
+  </a>
+  <img class="fig" src="roadmap-p1.png" alt="阅读路线第 1 页">
+
+  <h2>说明</h2>
+  <div class="d">原文版权归原作者与出版方所有，此处仅作个人学习检索使用，请勿再分发。</div>
+
+</main>
+<footer>Powered by GitHub Pages</footer>
+</body>
+</html>
